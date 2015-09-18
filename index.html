@@ -20,6 +20,15 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <script src="https://apis.google.com/js/platform.js" async defer></script>
     <meta name="google-signin-client_id" content="498664121663-6susmpth9s4h3pj77dul43jpt4m736ec.apps.googleusercontent.com">
+    <script type="text/javascript">
+    if (auth2.isSignedIn.get()) {
+      var profile = auth2.currentUser.get().getBasicProfile();
+      console.log('ID: ' + profile.getId());
+      console.log('Name: ' + profile.getName());
+      console.log('Image URL: ' + profile.getImageUrl());
+      console.log('Email: ' + profile.getEmail());
+    }
+    </script>
   </head>
 
   <body>
