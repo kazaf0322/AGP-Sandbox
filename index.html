@@ -118,6 +118,12 @@
         <div>
           <div class="g-signin2" data-onsuccess="onSignIn"></div>
         </div>
+        <p id='User'>Login to see stats<p>
+        <script>
+        if (profile.getName() === "Kirigaya Kazuto") then {
+          document.getElementById("User").innerHTML = "Welcome Back " + profile.getName();
+        };
+        </script>
       </footer>
     </div>
 
