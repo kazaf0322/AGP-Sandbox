@@ -27,10 +27,10 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-image: url('https://cloud.githubusercontent.com/assets/10553730/10887137/8d8d26bc-8153-11e5-8659-28fd9403228a.png');
+  background-image: url('https://cloud.githubusercontent.com/assets/10553730/10887395/c6c06628-8154-11e5-9bce-8ef1cb9f3b26.jpeg');
   background-color: #333;
   background-attachment: fixed;
-  background-position: center; 
+  background-position: center center; 
 }
 body {
   color: #fff;
