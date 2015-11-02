@@ -31,7 +31,7 @@ body {
   background-color: #333;
   background-attachment: fixed;
   background-position: center center; 
-  background-size: cover;
+  background-size: 100% auto;
 }
 body {
   color: #fff;
