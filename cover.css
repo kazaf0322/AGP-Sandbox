@@ -29,6 +29,7 @@ body {
   height: 100%;
   background-image: url('https://cloud.githubusercontent.com/assets/10553730/10887137/8d8d26bc-8153-11e5-8659-28fd9403228a.png');
   background-color: #333;
+  background-position: center; 
 }
 body {
   color: #fff;
